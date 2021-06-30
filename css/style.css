@@ -1,0 +1,73 @@
+.navbar {
+  background: black;
+  opacity: .7;
+  box-shadow: 2px 2px 2px #20c997; }
+  .navbar h2 {
+    color: #20c997;
+    text-shadow: 2px 2px 2px black; }
+  .navbar button:hover {
+    box-shadow: 2px 2px 2px #20c997; }
+  .navbar .nav-item {
+    font-size: 1.4rem; }
+  .navbar .nav-item:hover {
+    font-weight: bold;
+    color: #20c997; }
+
+#home {
+  background: url(../img/girl.jpg) no-repeat;
+  background-size: cover;
+  min-height: 700px;
+  background-attachment: fixed; }
+  #home .dark-overlay {
+    background: rgba(0, 0, 0, 0.637);
+    min-height: 700px; }
+  #home h2 {
+    padding-top: 200px; }
+  #home img {
+    padding-top: 100px; }
+  #home .btn:hover {
+    color: black;
+    font-weight: bold; }
+
+#subscription {
+  background: black; }
+  #subscription .btn {
+    background: #20c997; }
+
+#box {
+  background: url(../img/trees.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+
+.collapse-section {
+  box-shadow: 7px 7px 4px #20c997, 10px 10px 7px black; }
+  .collapse-section a {
+    text-decoration: none; }
+
+#authors {
+  margin-top: 100px; }
+  #authors .card:hover {
+    background: #20c997; }
+    #authors .card:hover h3, #authors .card:hover h4, #authors .card:hover p, #authors .card:hover a {
+      color: #fff; }
+  #authors img {
+    width: 120px;
+    height: 120px;
+    margin-top: -70px; }
+  #authors .fa {
+    font-size: 35px;
+    padding: 5px;
+    padding-bottom: 35px; }
+
+#message {
+  background: url(../img/lightB.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #message .input-group {
+    opacity: .7; }
+
+@media (min-width: 1199px) {
+  #authors h3 {
+    font-size: 140%; } }
